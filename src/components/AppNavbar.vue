@@ -1,32 +1,40 @@
 <template>
-<div id="navbar">
-  <v-toolbar app fixed :class="{'elevation-0': this.navbar_transparent}">
-      <v-toolbar-title>
-        App Name
-      </v-toolbar-title>
+  <v-app-bar
+    v-scroll="onScroll"
+    :color="!isScrolling ? 'transparent' : 'white'"
+    fixed
+    flat
+  >
+    <v-slide-x-transition>
+      <v-img
+        v-if="showLogo"
+        :src="require('@/assets/logo.svg')"
+        class="shrink"
+        contain
+        height="50"
+      />
+    </v-slide-x-transition>
 
-      <v-spacer></v-spacer>
+    <v-spacer />
 
-      <v-toolbar-items>
-        <v-btn flat to="/home">Home</v-btn>
-        <v-btn flat @click="">Login</v-btn>
-      </v-toolbar-items>
-  </v-toolbar>
-</div>
+  </v-app-bar>
 </template>
 
 <script>
-export default {
-  name: "Navbar",
-  data() {
-    return {
-      is_transparent: true
-    }
-  },
-  methods: {
-    onScroll(e) {
-      this.is_transparent = !(e.target.scrollTop > 0);
-    }
-  },
-}
+  export default {
+    name: 'AppNavbar',
+
+    data: () => ({
+      showLogo: false,
+      isScrolling: false,
+    }),
+
+    methods: {
+      onScroll () {
+        const offset = window.pageYOffset
+        this.isScrolling = offset > 50
+        this.showLogo = offset > 200
+      },
+    },
+  }
 </script>

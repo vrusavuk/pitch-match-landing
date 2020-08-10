@@ -1,15 +1,18 @@
 <template>
-  <div id="app">
+  <v-app>
+  
     <router-view name="navbar"></router-view>
-    <router-view name="home"></router-view>
-    <router-view name="footer"></router-view>
-  </div>
+    
+    <v-main>
+      <router-view name="home"></router-view>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-  export default {
-    data() {
-      return
-    }
-  }
-</script>  
+export default {
+  data: () => ({
+    //
+  }),
+};
+</script>
