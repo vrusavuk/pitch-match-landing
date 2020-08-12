@@ -3,18 +3,18 @@
         <h1>Pitch-Match</h1>
         <p>Футбол доступен для всех, в любое время!</p>
             <div class="row">
-              <v-column class="c">
+              <div class="c">
                 <a href="https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?mt=8&path=appstore">
                   <img alt="App Store Badge" src="./../assets/app-store-badge.png"
                   width="200" height="auto">
                 </a> 
-              </v-column>
-              <v-column class="c">
+              </div>
+              <div class="c">
                 <a href="https://play.google.com/store/apps?hl=en">
                   <img alt="App Store Badge" src="./../assets/google-play-badge.png"
                   width="200" height="auto">
                 </a> 
-              </v-column>
+              </div>
             </div>
           </div>
 </template>

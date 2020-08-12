@@ -1,7 +1,6 @@
 <template>
   
   <v-app-bar
-    :class="{'elevation-0': this.appnavbar_transparent}"
     v-scroll="onScroll"
     :color="!isScrolling ? 'transparent' : 'transparent'"
     fixed
@@ -42,7 +41,7 @@
     data: () => ({
       showLogo: false,
       isScrolling: false,
-      is_transparent: true,
+      
     }),
 
     methods: {
@@ -50,7 +49,7 @@
         const offset = window.pageYOffset
         this.isScrolling = offset > 50
         this.showLogo = offset > 200
-        this.is_transparent = !(e.target.scrollTop > 0);
+        
       },
     },
   }
