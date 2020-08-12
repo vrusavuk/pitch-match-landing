@@ -22,10 +22,10 @@
      <v-btn-toggle
           rounded
         >
-          <v-btn a href="#/ru">
+          <v-btn a href="/ru">
             ru
           </v-btn>
-          <v-btn a href="#/en">
+          <v-btn a href="/en">
             en
           </v-btn>
          
