@@ -13,11 +13,6 @@
 
 <script>
   export default {
-    name: 'Home',
-
-    components: {
-      IntroEnglish: () => import('@/components/IntroEnglish'),
-    }
 }
 </script>
 
