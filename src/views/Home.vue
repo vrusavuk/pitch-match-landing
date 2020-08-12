@@ -3,7 +3,7 @@
   <v-app>
     <section class="intro-bg">  
       <div class="intro">
-        <intro-english />
+        <intro />
         <img class="img-fluid" src="./../assets/mocukup.png" alt="Pitch Match Mockup">
       </div>
     </section>
@@ -12,7 +12,14 @@
   <!--INFO-->
 
 <script>
-  export default {
+import Intro from './../components/Intro'
+
+export default { 
+    name: 'Home',
+    components: {
+      Intro,
+  
+    }
 }
 </script>
 
@@ -20,7 +27,11 @@
 
 .intro-bg {
   height: 800px;
-  background: linear-gradient(36.1deg, #949494 0%, #d4d4d4 100%);
+  background-image: url("./../assets/soccer-field-3.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .intro {
