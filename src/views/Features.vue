@@ -18,20 +18,17 @@
     <section class="bg-container">
     <div>
         <features-text />
-        <mockup />
     </div>
     </section> 
 </section>
 </template>
 
 <script>
-import Mockup from './../components/Mockup';
 import FeaturesText from './../components/FeaturesText';
 
 export default {
     name: 'Features',
     components: {
-        Mockup,
         FeaturesText
     },
     data: () => ({
