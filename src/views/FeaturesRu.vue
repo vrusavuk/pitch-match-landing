@@ -66,7 +66,7 @@ export default {
 }
 
 .bg-container {
-    height: 700px;
+    height: 800px;
     width: 100%;
     background: linear-gradient(180deg, #ebecee 0%, #c7c2cc 100%);
 }
