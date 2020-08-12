@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <section>
     <section class="features-bg">  
       <div class="features">
         <v-row justify="space-around">
@@ -22,7 +22,7 @@
 
     </div>
     </section>
-  </v-app>  
+  </section>  
 </template>
 
 <script>

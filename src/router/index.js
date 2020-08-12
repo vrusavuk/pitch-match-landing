@@ -6,6 +6,7 @@ import HomeRu from './../views/HomeRu'
 import AppFooter from './../components/AppFooter'
 import Features from './../views/Features'
 import FeaturesRu from './../views/FeaturesRu'
+import NotFound from './../views/NotFound'
 
 
 Vue.use(VueRouter)
@@ -13,7 +14,7 @@ Vue.use(VueRouter)
 
   const routes = [
   {
-   path: '/', redirect: '/ru',
+   path: '/', redirect: '/ru', 
         components: {
           navbar: AppNavbar,
           homeru: HomeRu,
@@ -41,6 +42,10 @@ Vue.use(VueRouter)
              
          }
        },
+    {
+      path: '/*',
+      component: NotFound
+    }
 ]
 
 const router = new VueRouter({

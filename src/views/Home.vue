@@ -1,13 +1,13 @@
   <!--INTRO-->
 <template>
-  <v-app>
+  
     <section class="intro-bg">  
       <div class="intro">
         <intro />
         <img class="img-fluid" src="./../assets/mocukup.png" alt="Pitch Match Mockup">
       </div>
     </section>
-  </v-app>  
+   
 </template>
   <!--INFO-->
 

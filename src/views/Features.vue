@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+<section>
     <section class="features-bg">  
       <div class="features">
         <v-row justify="space-around">
@@ -19,10 +19,9 @@
     <div>
         <features-text />
         <mockup />
-
     </div>
-    </section>
-  </v-app>  
+    </section> 
+</section>
 </template>
 
 <script>

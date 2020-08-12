@@ -21,14 +21,19 @@
     <v-spacer />
      <v-btn-toggle
           rounded
+          mandatory
         >
-          <v-btn a href="/ru">
-            ru
-          </v-btn>
-          <v-btn a href="/en">
-            en
-          </v-btn>
-         
+          <router-link to="/ru">
+            <v-btn icon>
+              ru
+            </v-btn>
+          </router-link>
+          <router-link to="/en">
+            <v-btn icon>
+              en
+            </v-btn>
+          </router-link>
+
         </v-btn-toggle>
 
   </v-app-bar>
