@@ -27,7 +27,7 @@ export default {
 
 .intro-bg {
   height: 800px;
-  background-image: url("./../assets/soccer-field-3.jpeg");
+  background-image: url("./../assets/soccer-field-3.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
