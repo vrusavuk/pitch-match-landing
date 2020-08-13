@@ -4,6 +4,7 @@ import AppNavbar from './../components/AppNavbar'
 import Home from './../views/Home'
 import HomeRu from './../views/HomeRu'
 import AppFooter from './../components/AppFooter'
+import AppFooterRu from './../components/AppFooterRu'
 import Features from './../views/Features'
 import FeaturesRu from './../views/FeaturesRu'
 import NotFound from './../views/NotFound'
@@ -19,7 +20,7 @@ Vue.use(VueRouter)
           navbar: AppNavbar,
           homeru: HomeRu,
           featuresru: FeaturesRu,
-          footer: AppFooter,
+          footer: AppFooterRu,
       }
     },
     {
@@ -38,7 +39,7 @@ Vue.use(VueRouter)
              navbar: AppNavbar,
              homeru: HomeRu,
              featuresru: FeaturesRu,
-             footer: AppFooter,
+             footer: AppFooterRu,
              
          }
        },

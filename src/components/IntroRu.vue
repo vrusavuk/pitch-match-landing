@@ -61,9 +61,37 @@ export default {
   float: left;
   width: 33.3%;
   position: relative;
-  padding-left: 2.5%;
-  
-  
+  padding-left: 2.5%;  
 }
 
+@media screen and (max-width: 759px) {
+  .intro h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .intro p {
+  font-size: 28px;
+  font-weight: 600;
+  
+}
+}
+@media screen and (max-width: 759px) {
+
+  .row {
+    display: flex;
+  }
+
+  .c {
+    width: 50%;
+    align-self: center;
+  }
+  .c img {
+    max-width: 250px;
+  }
+  .mockup {
+    align-self: center;
+  }
+}
 </style>

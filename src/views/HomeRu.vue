@@ -50,4 +50,13 @@ export default {
   align-self: center; 
 }
 
+@media screen and (max-width: 759px) {
+  .intro {
+    flex-direction: column;
+    padding: 15px 15px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+}
 </style>

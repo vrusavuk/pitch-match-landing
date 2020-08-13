@@ -2,10 +2,10 @@
     <footer class="footer">
   <div class="content has-text-centered">
     <h1>
-      Download Pitch-Match Now
+      Скачай Pitch-Match сейчас
     </h1>
     <p>
-      Available for all iOS and Android devices
+      Приложение доступно на всех iOS и Android устройствах
     </p>
     <p>
       <a class="badge" href="https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?mt=8&path=appstore">
