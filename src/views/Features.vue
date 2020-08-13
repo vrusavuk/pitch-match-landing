@@ -17,7 +17,9 @@
     </section>
     <section class="bg-container">
     <div>
+
         <features-text />
+        
     </div>
     </section> 
 </section>
